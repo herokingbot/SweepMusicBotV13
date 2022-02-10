@@ -46,7 +46,7 @@ for (const fileSlash of commandSlashFiles) {
 
 client.once("ready", () => {
     console.log(`${client.user.username} is online`);
-    client.user.setActivity(`SOON!`, { type: "PLAYING" });
+    client.user.setActivity(`Sweepmusic.nl`, { type: "LISTENING" });
 
 
     // const guild = client.guilds.cache.get("851014801906728960");
